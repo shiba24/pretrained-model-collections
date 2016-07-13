@@ -61,7 +61,7 @@ Models are sorted for each tasks or competitions.
     - [Caffe model and prototxt]()
     - [Exported pkl]()
 
-### Deeppose
+### FLIC dataset for human pose estimation
  - AlexNet
     - [Original paper]()
     - [Chainer model and state]()
