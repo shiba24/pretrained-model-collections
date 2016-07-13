@@ -86,7 +86,7 @@ Chainer is compatible to Caffe model to some extent. Please see [Caffe function 
 
 #### 2. Loading pickles
 
-Chainer doesn't support yet some functions and layers (e.g. Deconvolution layer) and might output some error messages. In that case, it might be possible to [load pkls](#Loading pkl) exported from caffe. The pkl file should be exported by those who DO have caffe! (To caffe users: please see [Caffe model weight and bias export for non-caffe users](Caffe model weight and bias export for non-caffe users))
+Chainer doesn't support yet some functions and layers (e.g. Deconvolution layer) and might output some error messages. In that case, it might be possible to [load pkls](#Loading pkl) exported from caffe. The pkl file should be exported by those who DO have caffe! (To caffe users: please see [Caffe model weight and bias export for non-caffe users](#caffe-model-weight-and-bias-export-for-non-caffe-users))
 
 ## Chainer
 
