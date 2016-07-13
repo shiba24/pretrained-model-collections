@@ -46,8 +46,8 @@ Models are sorted for each tasks or competitions.
 ### ILSVRC
  - ResNet
     - [Original paper](http://arxiv.org/abs/1512.03385) "Deep Residual Learning for Image Recognition" by Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-    - [Caffe model and prototxt](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777) from https://github.com/KaimingHe/deep-residual-networks. For the details see this web site.
-    - [Exported pkl](https://drive.google.com/open?id=0BxSyYt1jT6Lhc2xVUFgzQThpcXM) You can know the structure of model by reading prototxt above. Only ResNet50 is available for now.
+    - [Caffe model and prototxt](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777) uploaded by [@KaimingHe](https://github.com/KaimingHe) .For the details see  [https://github.com/KaimingHe/deep-residual-networks](https://github.com/KaimingHe/deep-residual-networks).
+    - [Exported pkl](https://drive.google.com/open?id=0BxSyYt1jT6Lhc2xVUFgzQThpcXM) You can know the structure of model by reading prototxt above. Only ResNet50 is available for now. Exported by [@shiba24](https://github.com/shiba24)
 
 ### Pascal datasets
  - Fully Convolutional Network 
