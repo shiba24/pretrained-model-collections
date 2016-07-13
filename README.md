@@ -3,15 +3,13 @@ Pre-trained model links of recent neural network papers
 
 A list of available pre-trained neural network. In particular caffe and chainer models.
 
-For the users who haven't installed caffe, I made up some files where weight and bias are saved as pickle. You can re-construct neural networks of your own framework, if you know the model structure.
+For the users who haven't installed caffe, I made up some files where weight and bias are saved as pickle. You can re-construct neural networks of your own framework, if you know the model structure. See also [Loading Caffe model without Caffe](#loading-caffe-model-without-caffe)
 
 ## Notice
 1. Please be careful about the LICENCE for each model of your own usage.
-
 2. This is in progress and we need your help! Thank you.
 
 ## TODOs
-
  - Adding more models
  - List the LICENCE for each model
  - Scripts for loading caffe model without caffe?
@@ -37,7 +35,6 @@ If you want to inform and add the new pre-trained models available, feel free fo
      - [Who has not installed caffe](#who-has-not-installed-caffe)
      - [Who wants to copy pre-trained chainer model](#who-wants-to-copy-pre-trained-chainer-model)
      - [Caffe model weight and bias export for non-caffe users](#caffe-model-weight-and-bias-export-for-non-caffe-users)
-    
  - [LICENCE](#licence)
  - [Author](#author)
 
@@ -64,16 +61,13 @@ Models are sorted for each tasks or competitions.
     - [Caffe model and prototxt]()
     - [Exported pkl]()
 
-
 ### Deeppose
  - AlexNet
     - [Original paper]()
     - [Chainer model and state]()
-
  - ResNet50
     - [Original paper]()
     - [Chainer model and state]()
-
 
 ## Caffe
 
@@ -86,7 +80,7 @@ Models are sorted for each tasks or competitions.
 
 There are few ways for loading caffe model without caffe. Currently best practices are two below:
 
-#### 1. Loading from chaner.caffe_function
+#### 1. Loading from chaner.CaffeFunction
 
 Chainer is compatible to Caffe model to some extent. Please see [Caffe function in Chainer](http://docs.chainer.org/en/stable/reference/caffe.html)
 
