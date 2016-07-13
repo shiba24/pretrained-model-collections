@@ -86,9 +86,7 @@ Chainer is compatible to Caffe model to some extent. Please see [Caffe function 
 
 #### 2. Loading pickles
 
-Chainer doesn't support yet some functions and layers (e.g. Deconvolution layer) and chainer.functions.caffe.CaffeFunction outputs some error messages. 
-
-In that case, it might be possible to [load pkls](#Loading pkl) exported from caffe. The pkl file should be exported by those who DO have caffe! (Please see [Caffe model weight and bias export for non-caffe users](Caffe model weight and bias export for non-caffe users))
+Chainer doesn't support yet some functions and layers (e.g. Deconvolution layer) and might output some error messages. In that case, it might be possible to [load pkls](#Loading pkl) exported from caffe. The pkl file should be exported by those who DO have caffe! (To caffe users: please see [Caffe model weight and bias export for non-caffe users](Caffe model weight and bias export for non-caffe users))
 
 ## Chainer
 
@@ -123,7 +121,7 @@ Now I am implementing ```chainer2pkl.py``` for exporting W and b of chainer mode
 
 #### Loading from chainer.theanofunction
 
-Chainer will be compatible to Theano model. Please wait just for a while!
+Chainer will be really compatible to Theano model soon. Please wait just for a while!
 
 ## Tips
 
@@ -137,9 +135,7 @@ If you want to use caffe pre-trained models in chainer or keras, please see [Loa
 
 Recently the framework that have plenty of pre-trained models is [Caffe](http://caffe.berkeleyvision.org/), particularly in the academic papers.
 
-However, the installation of caffe is a bit complicated. Those who use other frameworks might not want to install caffe only for the pre-trained models.
-
-This kind of exclusive possession of models for specific frameworks prevent open improvement for deep learning communities including students, academic fields, and industries.
+However, the installation of caffe is a bit complicated. Those who use other frameworks might not want to install caffe only for the pre-trained models. This kind of exclusive possession of models for specific frameworks prevent open improvement for deep learning communities including students, academic fields, and industries.
 
 So, I wrote ```caffe2pkl.py```. This script works only caffe installed evironment and makes pickles of weights and biases.
 
