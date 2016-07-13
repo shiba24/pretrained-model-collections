@@ -1,4 +1,4 @@
-Pre-trained model links of recent neural network papers
+Pre-trained model links of latest neural network papers
 ====
 
 A list of available pre-trained neural network. In particular caffe and chainer models.
@@ -78,7 +78,7 @@ Models are sorted for each tasks or competitions.
 
 ### Loading Caffe model without Caffe
 
-There are few ways for loading caffe model without caffe. Currently best practices are two below:
+There are few ways for loading caffe model without caffe. Currently my best practices are two below:
 
 #### 1. Loading from chaner.CaffeFunction
 
@@ -103,7 +103,7 @@ See also [how to copy model to another model](#who-wants-to-copy-pre-trained-cha
 
 #### The best practice
 
-Currently the best practice is installing chainer on your own environment because of its easy installation.
+Currently the best practice might be installing chainer on your own environment because of its easy installation.
 ```pip install chainer```
 For more details, please see [chainer installation guide](http://docs.chainer.org/en/stable/install.html).
 
