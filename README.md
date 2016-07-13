@@ -99,6 +99,7 @@ In that case, it might be possible to [load pkls](#Loading pkl) exported from ca
 ## Chainer
 
 [Chainer documentation](http://docs.chainer.org/en/stable/index.html)
+See also [how to copy model to another model](#who-wants-to-copy-pre-trained-chainer-model)
 
 ### Loading Chainer model with Chainer
 
@@ -134,7 +135,7 @@ Chainer will be compatible to Theano model. Please wait just for a while!
 
 ### Who has not installed caffe
 
-If you want to use caffe pre-trained models in chainer or keras, please see [Loading pkl](#loading pkl). You need .pkl file exported or downloaded beforehand.
+If you want to use caffe pre-trained models in chainer or keras, please see [Loading pkl](#loading-pkl). You need .pkl file exported or downloaded beforehand.
 
 ### Caffe model weight and bias export for non-caffe users
 
@@ -168,14 +169,14 @@ with open(PATH_TO_PKL, 'rb') as d_pickle:
 
 ### Who wants to copy pre-trained chainer model
 
-See the function ```copy_model``` in [this web site](http://qiita.com/tabe2314/items/6c0c1b769e12ab1e2614).
+See the function ```copy_model``` in [this web site](http://qiita.com/tabe2314/items/6c0c1b769e12ab1e2614)
 
 Although this is in Japanese, but you will find the function very useful. (No need to understanding the Japanese explanation exactly!)
 
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT LICENCE](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
 ## Author
 
