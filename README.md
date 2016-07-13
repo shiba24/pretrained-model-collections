@@ -25,18 +25,18 @@ If you want to inform and add the new pre-trained models available, feel free fo
 
  - [Models](#models)
  - [Caffe](#caffe)
-    - [Loading Caffe model with Caffe]() 
-    - [Loading Caffe model without Caffe]() 
+    - [Loading Caffe model with Caffe](#loading-caffe-model-with-caffe) 
+    - [Loading Caffe model without Caffe](#loading-caffe-model-without-caffe) 
  - [Chainer](#chainer)
-    - [Loading Chainer model with Chainer]() 
-    - [Loading Chainer model without Chainer]() 
+    - [Loading Chainer model with Chainer](#loading-chainer-model-with-chainer) 
+    - [Loading Chainer model without Chainer](#loading-chainer-model-without-chainer) 
  - [Theano](#theano)
-    - [Loading Theano model with Theano]() 
-    - [Loading Theano model without Theano]() 
+    - [Loading Theano model with Theano](#loading-theano-model-with-theano) 
+    - [Loading Theano model without Theano](#loading-theano-model-without-theano) 
  - [Tips](#tips)
-     - [Who hasn't installed caffe](#who hasn't installed caffe)
-     - [Who wants to copy pre-trained chainer model](#who wants to copy pre-trained chainer model)
-     - [Caffe model weight and bias export for non-caffe users](#caffe model weight and bias export for non-caffe users)
+     - [Who has not installed caffe](#who-has-not-installed-caffe)
+     - [Who wants to copy pre-trained chainer model](#who-wants-to-copy-pre-trained-chainer-model)
+     - [Caffe model weight and bias export for non-caffe users](#caffe-model-weight-and-bias-export-for-non-caffe-users)
     
  - [LICENCE](#licence)
  - [Author](#author)
@@ -132,7 +132,7 @@ Chainer will be compatible to Theano model. Please wait just for a while!
 
 ## Tips
 
-### Who hasn't installed caffe
+### Who has not installed caffe
 
 If you want to use caffe pre-trained models in chainer or keras, please see [Loading pkl](#loading pkl). You need .pkl file exported or downloaded beforehand.
 
