@@ -19,27 +19,27 @@ For the users who haven't installed caffe, I made up some files where weight and
 
 ## Contributing
 
-If you want to inform and add the new pre-trained models available, feel free for Issues and PRs. Also if you have installed caffe and want to contribute, please see [Caffe model weight and bias export for non-caffe users](#Caffe model weight and bias export for non-caffe users).
+If you want to inform and add the new pre-trained models available, feel free for Issues and PRs. Also if you have installed caffe and want to contribute, please see [Caffe model weight and bias export for non-caffe users](#caffe model weight and bias export for non-caffe users).
 
 ## Table of Contents
 
- - [Models](#Models)
- - [Caffe]()
+ - [Models](#models)
+ - [Caffe](#caffe)
     - [Loading Caffe model with Caffe]() 
     - [Loading Caffe model without Caffe]() 
- - [Chainer]()
+ - [Chainer](#chainer)
     - [Loading Chainer model with Chainer]() 
     - [Loading Chainer model without Chainer]() 
- - [Keras]()
-    - [Loading Keras model with Keras]() 
-    - [Loading Keras model without Keras]() 
- - [Tips](#Tips)
-     - [Who hasn't installed caffe](#Who hasn't installed caffe)
-     - [Who wants to copy pre-trained chainer model](#Who wants to copy pre-trained chainer model)
-     - [Caffe model weight and bias export for non-caffe users](#Caffe model weight and bias export for non-caffe users)
+ - [Theano](#theano)
+    - [Loading Theano model with Theano]() 
+    - [Loading Theano model without Theano]() 
+ - [Tips](#tips)
+     - [Who hasn't installed caffe](#who hasn't installed caffe)
+     - [Who wants to copy pre-trained chainer model](#who wants to copy pre-trained chainer model)
+     - [Caffe model weight and bias export for non-caffe users](#caffe model weight and bias export for non-caffe users)
     
- - [LICENCE](#LICENCE)
- - [Author](#Author)
+ - [LICENCE](#licence)
+ - [Author](#author)
 
 
 ## Models
@@ -54,9 +54,9 @@ Models are sorted for each tasks or competitions.
 
 ### Pascal datasets
  - Fully Convolutional Network 
-    - [Original paper]()
-    - [Caffe model and prototxt]()
-    - [Exported pkl]()
+    - [Original paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html) "Fully Convolutional Networks for Semantic Segmentation" by Jonathan Long, Evan Shelhamer, Trevor Darrell
+    - [Caffe model](http://dl.caffe.berkeleyvision.org/fcn8s-heavy-pascal.caffemodel) from [https://github.com/shelhamer/fcn.berkeleyvision.org/tree/master/voc-fcn8s](https://github.com/shelhamer/fcn.berkeleyvision.org/tree/master/voc-fcn8s). However deploy.prototxt is incorrect. Please ```wget https://raw.githubusercontent.com/shelhamer/fcn.berkeleyvision.org/master/voc-fcn8s/deploy.prototxt``` for prototxt.
+    - [Exported pkl]() now in prep
 
 ### VOC 2010 datasets
  - Fully Convolutional Network 
@@ -75,8 +75,6 @@ Models are sorted for each tasks or competitions.
     - [Chainer model and state]()
 
 
-
-
 ## Caffe
 
 [Caffe documentation](http://caffe.berkeleyvision.org/)
@@ -86,14 +84,11 @@ Models are sorted for each tasks or competitions.
 
 ### Loading Caffe model without Caffe
 
-There are few ways for loading caffe model without caffe.
-
-Currently best practices are two below:
+There are few ways for loading caffe model without caffe. Currently best practices are two below:
 
 #### 1. Loading from chaner.caffe_function
 
 Chainer is compatible to Caffe model to some extent. Please see [Caffe function in Chainer](http://docs.chainer.org/en/stable/reference/caffe.html)
-
 
 #### 2. Loading pickles
 
@@ -116,22 +111,30 @@ In that case, it might be possible to [load pkls](#Loading pkl) exported from ca
 #### The best practice
 
 Currently the best practice is installing chainer on your own environment because of its easy installation.
-
 ```pip install chainer```
-
 For more details, please see [chainer installation guide](http://docs.chainer.org/en/stable/install.html).
 
 #### chainer2pkl
 
 Now I am implementing ```chainer2pkl.py``` for exporting W and b of chainer model. Please wait for a while.
 
+## Theano
 
+[Theano documentation]()
+
+### Loading Theano model with Theano
+
+### Loading Theano model without Theano
+
+#### Loading from chainer.theanofunction
+
+Chainer will be compatible to Theano model. Please wait just for a while!
 
 ## Tips
 
 ### Who hasn't installed caffe
 
-If you want to use caffe pre-trained models in chainer or keras, please see [Loading pkl](#Loading pkl). You need .pkl file exported or downloaded beforehand.
+If you want to use caffe pre-trained models in chainer or keras, please see [Loading pkl](#loading pkl). You need .pkl file exported or downloaded beforehand.
 
 ### Caffe model weight and bias export for non-caffe users
 
@@ -144,7 +147,6 @@ However, the installation of caffe is a bit complicated. Those who use other fra
 This kind of exclusive possession of models for specific frameworks prevent open improvement for deep learning communities including students, academic fields, and industries.
 
 So, I wrote ```caffe2pkl.py```. This script works only caffe installed evironment and makes pickles of weights and biases.
-
 
 #### Usage
 
