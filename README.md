@@ -6,12 +6,12 @@ A list of available pre-trained neural network. In particular caffe and chainer 
 For the users who haven't installed caffe, I made up some files where weight and bias are saved as pickle. You can re-construct neural networks of your own framework, if you know the model structure. See also [Loading Caffe model without Caffe](#loading-caffe-model-without-caffe)
 
 ## Notice
-1. Please be careful about the LICENCE for each model of your own usage.
+1. Please be careful about the LICENSE for each model of your own usage.
 2. This is in progress and we need your help! Thank you.
 
 ## TODOs
- - Adding more models
- - List the LICENCE for each model
+ - Add more models and implementations
+ - List the LICENSE for each model
  - Scripts for loading caffe model without caffe?
  - Scripts for chainer2pkl ? 
 
@@ -35,7 +35,7 @@ If you want to inform and add the new pre-trained models available, feel free fo
      - [Who has not installed caffe](#who-has-not-installed-caffe)
      - [Who wants to copy pre-trained chainer model](#who-wants-to-copy-pre-trained-chainer-model)
      - [Caffe model weight and bias export for non-caffe users](#caffe-model-weight-and-bias-export-for-non-caffe-users)
- - [LICENCE](#licence)
+ - [LICENSE](#license)
  - [Author](#author)
 
 
@@ -46,8 +46,8 @@ Models are sorted for each tasks or competitions.
 ### ILSVRC
  - ResNet
     - [Original paper](http://arxiv.org/abs/1512.03385) "Deep Residual Learning for Image Recognition" by Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-    - [Caffe model and prototxt](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777) uploaded by [@KaimingHe](https://github.com/KaimingHe) .For the details see  [https://github.com/KaimingHe/deep-residual-networks](https://github.com/KaimingHe/deep-residual-networks).
-    - [Exported pkl](https://drive.google.com/open?id=0BxSyYt1jT6Lhc2xVUFgzQThpcXM) You can know the structure of model by reading prototxt above. Only ResNet50 is available for now. Exported by [@shiba24](https://github.com/shiba24)
+    - [Caffe model and prototxt](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777) uploaded by [@KaimingHe](https://github.com/KaimingHe). MIT LICENSE. For the details see  [https://github.com/KaimingHe/deep-residual-networks](https://github.com/KaimingHe/deep-residual-networks).
+    - [Exported pkl](https://drive.google.com/open?id=0BxSyYt1jT6Lhc2xVUFgzQThpcXM) You can know the structure of model by reading prototxt above. Only ResNet50 is available for now. MIT LICENSE. Exported by [@shiba24](https://github.com/shiba24)
 
 ### Pascal datasets
  - Fully Convolutional Network 
@@ -166,7 +166,7 @@ Although this is in Japanese, but you will find the function very useful. (No ne
 
 ## Licence
 
-[MIT LICENCE](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT LICENSE](https://github.com/tcnksm/tool/blob/master/LICENSE)
 
 ## Author
 
