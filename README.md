@@ -19,7 +19,7 @@ For the users who haven't installed caffe, I made up some files where weight and
 
 ## Contributing
 
-If you want to inform and add the new pre-trained models available, feel free for Issues and PRs. Also if you have installed caffe and want to contribute, please see [Caffe model weight and bias export for non-caffe users](#caffe model weight and bias export for non-caffe users).
+If you want to inform and add the new pre-trained models available, feel free for Issues and PRs. Also if you have installed caffe and want to contribute, please see [Caffe model weight and bias export for non-caffe users](#caffe-model-weight-and-bias-export-for-non-caffe-users).
 
 ## Table of Contents
 
