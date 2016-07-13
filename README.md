@@ -28,7 +28,8 @@ Also if you have installed caffe and want to contribute, please see [Caffe model
 
  - [Caffe models](#Caffe models and/or weight and bias pkls)
  - [Chainer models](#Chainer models)
-
+ - [Tips](#Tips)
+ -- [Users who haven't installed caffe](#Users who haven't installed caffe)
 
 ## Caffe models and/or weight and bias pkls
 
