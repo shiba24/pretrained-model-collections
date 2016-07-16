@@ -55,9 +55,7 @@ Models are sorted for each tasks or competitions.
 
 ### VOC 2010 datasets
  - Fully Convolutional Network 
-    - [Original paper]()
-    - [Caffe model and prototxt]()
-    - [Exported pkl]()
+    - now in prep
 
 ### FLIC dataset for human pose estimation
  - AlexNet
