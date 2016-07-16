@@ -1,7 +1,7 @@
 Pre-trained model links of latest neural network papers
 ====
 
-A list of available pre-trained neural network. In particular caffe and chainer models.
+A list of available pre-trained neural network, in particular caffe and chainer models. Like [model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo) of caffe, but this repository offers framework-free collections of the latest paper implements.
 
 For the users who haven't installed caffe, I made up some files where weight and bias are saved as pickle. You can re-construct neural networks of your own framework, if you know the model structure. See also [Loading Caffe model without Caffe](#loading-caffe-model-without-caffe)
 
@@ -9,15 +9,13 @@ For the users who haven't installed caffe, I made up some files where weight and
 1. Please be careful about the LICENSE for each model of your own usage.
 2. This is in progress and we need your help! Thank you.
 
+## Contributing
+If you want to inform and add the new pre-trained models available, feel free for Issues and PRs. Also if you have installed caffe and want to contribute, please see [Caffe model weight and bias export for non-caffe users](#caffe-model-weight-and-bias-export-for-non-caffe-users).
+
 ## TODOs
  - Add more models and implementations
  - List the LICENSE for each model
- - Scripts for loading caffe model without caffe?
- - Scripts for chainer2pkl ? 
-
-## Contributing
-
-If you want to inform and add the new pre-trained models available, feel free for Issues and PRs. Also if you have installed caffe and want to contribute, please see [Caffe model weight and bias export for non-caffe users](#caffe-model-weight-and-bias-export-for-non-caffe-users).
+ - Scripts for chainer2pkl
 
 ## Table of Contents
 
@@ -63,18 +61,16 @@ Models are sorted for each tasks or competitions.
 
 ### FLIC dataset for human pose estimation
  - AlexNet
-    - [Original paper]()
-    - [Chainer model and state]()
+    - [Original paper](http://arxiv.org/abs/1312.4659)
+    - [Chainer implementation](https://github.com/mitmul/deeppose) by [@mitmul](https://github.com/mitmul)
+    - [Chainer model](https://drive.google.com/file/d/0BxSyYt1jT6LhS2dKSUtIV1Z4eGM/view?usp=sharing) trained by [@shiba24](https://github.com/shiba24). Trained epoch = 90 and the validation loss = 0.0187835. This file is .npy format so you may read without chainer (though not tested yet).
  - ResNet50
-    - [Original paper]()
+    - [Original paper](http://arxiv.org/abs/1312.4659)
     - [Chainer model and state]()
 
 ## Caffe
-
-[Caffe documentation](http://caffe.berkeleyvision.org/)
-
 ### Loading Caffe model with Caffe
-
+See the [Caffe documentation](http://caffe.berkeleyvision.org/) for loading caffe models with caffe.
 
 ### Loading Caffe model without Caffe
 
@@ -90,14 +86,10 @@ Chainer doesn't support yet some functions and layers (e.g. Deconvolution layer)
 
 ## Chainer
 
-[Chainer documentation](http://docs.chainer.org/en/stable/index.html)
-See also [how to copy model to another model](#who-wants-to-copy-pre-trained-chainer-model)
-
 ### Loading Chainer model with Chainer
 
-1. Write chainer model, of the same structure (layers) as the pre-trained model.
-2. Create model object
-3. ```chainer.serializers.load_npz(filename, model_obj)```
+See the [Chainer documentation](http://docs.chainer.org/en/stable/index.html) for loading chainer model with chainer.
+See also [how to copy model to another model](#who-wants-to-copy-pre-trained-chainer-model).
 
 ### Loading Chainer model without Chainer
 
@@ -113,9 +105,8 @@ Now I am implementing ```chainer2pkl.py``` for exporting W and b of chainer mode
 
 ## Theano
 
-[Theano documentation]()
-
 ### Loading Theano model with Theano
+See the [Theano documentation](http://deeplearning.net/software/theano/) for loading theano models with theano.
 
 ### Loading Theano model without Theano
 
@@ -133,7 +124,7 @@ If you want to use caffe pre-trained models in chainer or keras, please see [Loa
 
 #### Why exporting pickles for non-caffe users?
 
-Recently the framework that have plenty of pre-trained models is [Caffe](http://caffe.berkeleyvision.org/), particularly in the academic papers.
+Recently the framework that has plenty of pre-trained models is [Caffe](http://caffe.berkeleyvision.org/), particularly in the academic papers.
 
 However, the installation of caffe is a bit complicated. Those who use other frameworks might not want to install caffe only for the pre-trained models. This kind of exclusive possession of models for specific frameworks prevent open improvement for deep learning communities including students, academic fields, and industries.
 
