@@ -110,10 +110,7 @@ Now I am implementing ```chainer2pkl.py``` for exporting W and b of chainer mode
 See the [Theano documentation](http://deeplearning.net/software/theano/) for loading theano models with theano.
 
 ### Loading Theano model without Theano
-
-#### Loading from chainer.theanofunction
-
-Chainer will be really compatible to Theano model soon. Please wait just for a while!
+Now in prep
 
 ## Tips
 
