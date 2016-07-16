@@ -3,6 +3,9 @@ Pre-trained model links of latest neural network papers
 
 A list of available pre-trained neural network, in particular caffe and chainer models. Like [model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo) of caffe, but this repository aims to offer you framework-free collections of the latest paper implements.
 
+Recently many deep-learning frameworks exist such as caffe, theano, chainer, tensorflow, keras and so on.
+However, each pre-trained models are not compatible (i.e. cannot be loaded with other frameworks). This kind of exclusion of models for specific frameworks prevent open improvement for deep learning communities including students, academic fields, and industries.
+
 For the users who haven't installed caffe, I made up some files where weight and bias are saved as pickle. You can re-construct neural networks of your own framework, if you know the model structure. See also [Loading Caffe model without Caffe](#loading-caffe-model-without-caffe)
 
 ## Notice
