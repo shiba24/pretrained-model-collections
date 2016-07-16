@@ -4,16 +4,17 @@ Pre-trained model links of latest neural network papers
 A list of available pre-trained neural network, in particular caffe and chainer models. Like [model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo) of caffe, but this repository aims to offer you framework-free collections of the latest paper implements.
 
 Recently many deep-learning frameworks exist such as caffe, theano, chainer, tensorflow, keras and so on.
-However, each pre-trained models are not compatible (i.e. cannot be loaded with other frameworks). This kind of exclusion of models for specific frameworks prevent open improvement for deep learning communities including students, academic fields, and industries.
+However, each pre-trained models are sometimes not compatible each other (i.e. cannot be loaded with other frameworks). This kind of exclusion of models for specific frameworks might prevent open improvement for deep learning communities including students, academic fields, and industries.
 
 For the users who haven't installed caffe, I made up some files where weight and bias are saved as pickle. You can re-construct neural networks of your own framework, if you know the model structure. See also [Loading Caffe model without Caffe](#loading-caffe-model-without-caffe)
 
 ## Notice
 1. Please be careful about the LICENSE for each model of your own usage.
-2. This is in progress and we need your help! Thank you.
+2. This is in progress and we [need your help](#contributing)! Thank you.
 
 ## Contributing
 If you want to inform and add the new pre-trained models available, feel free for Issues and PRs. Also if you have installed caffe and want to contribute, please see [Caffe model weight and bias export for non-caffe users](#caffe-model-weight-and-bias-export-for-non-caffe-users).
+
 
 ## TODOs
  - Add more models and implementations
@@ -66,8 +67,7 @@ Models are sorted for each tasks or competitions.
     - [Chainer implementation](https://github.com/mitmul/deeppose) by [@mitmul](https://github.com/mitmul)
     - [Chainer model](https://drive.google.com/file/d/0BxSyYt1jT6LhS2dKSUtIV1Z4eGM/view?usp=sharing) trained by [@shiba24](https://github.com/shiba24). Trained epoch = 90 and the validation loss = 0.0187835. This file is .npy format so you may read without chainer (though not tested yet).
  - ResNet50
-    - [Original paper](http://arxiv.org/abs/1312.4659)
-    - [Chainer model and state]()
+    - now in prep
 
 ## Caffe
 ### Loading Caffe model with Caffe
