@@ -24,6 +24,10 @@ If you want to inform and add the new pre-trained models available, feel free fo
 ## Table of Contents
 
  - [Models](#models)
+    - [ILSVRC](#ilsvrc) 
+    - [Pascal datasets](#pascal-datasets) 
+    - [VOC 2010 datasets](#voc-2010-datasets) 
+    - [FLIC dataset for human pose estimation](#flic-dataset-for-human-pose-estimation) 
  - [Caffe](#caffe)
     - [Loading Caffe model with Caffe](#loading-caffe-model-with-caffe) 
     - [Loading Caffe model without Caffe](#loading-caffe-model-without-caffe) 
