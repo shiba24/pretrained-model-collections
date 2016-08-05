@@ -55,7 +55,7 @@ Models are sorted for each tasks or competitions.
  - Fully Convolutional Network 
     - [Original paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html) "Fully Convolutional Networks for Semantic Segmentation" by Jonathan Long, Evan Shelhamer, Trevor Darrell
     - [Caffe model](http://dl.caffe.berkeleyvision.org/fcn8s-heavy-pascal.caffemodel) from [https://github.com/shelhamer/fcn.berkeleyvision.org/tree/master/voc-fcn8s](https://github.com/shelhamer/fcn.berkeleyvision.org/tree/master/voc-fcn8s). However deploy.prototxt is incorrect. Please ```wget https://raw.githubusercontent.com/shelhamer/fcn.berkeleyvision.org/master/voc-fcn8s/deploy.prototxt``` for prototxt.
-    - [Exported pkl]() now in prep
+    - [Exported pkl](https://drive.google.com/open?id=0BxSyYt1jT6LhUlhITjdicDFyNHM) You can know the structure of model by reading prototxt above. Only ResNet50 is available for now. MIT LICENSE. Exported by [@shiba24](https://github.com/shiba24)
 
 ### VOC 2010 datasets
  - Fully Convolutional Network 
@@ -67,7 +67,7 @@ Models are sorted for each tasks or competitions.
     - [Chainer implementation](https://github.com/mitmul/deeppose) by [@mitmul](https://github.com/mitmul). [GPL v2 LICENSE](https://opensource.org/licenses/GPL-2.0).
     - [Chainer model](https://drive.google.com/file/d/0BxSyYt1jT6LhS2dKSUtIV1Z4eGM/view?usp=sharing) trained by [@shiba24](https://github.com/shiba24). [GPL v2 LICENSE](https://opensource.org/licenses/GPL-2.0). Trained epoch = 90 and the validation loss = 0.0187835. This file is .npy format so you may read without chainer (though not tested yet).
  - ResNet50
-    - now in prep
+    - [Chainer model](https://drive.google.com/open?id=0BxSyYt1jT6LhS2dKSUtIV1Z4eGM) trained by [@shiba24](https://github.com/shiba24). [GPL v2 LICENSE](https://opensource.org/licenses/GPL-2.0). Trained epoch = 40 and the validation loss = 0.00374945877117. This file is .npy format so you may read without chainer (though not tested yet).
 
 ## Caffe
 ### Loading Caffe model with Caffe
