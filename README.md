@@ -71,7 +71,7 @@ Models are sorted for each tasks or competitions.
     - [Chainer implementation](https://github.com/mitmul/deeppose) by [@mitmul](https://github.com/mitmul). [GPL v2 LICENSE](https://opensource.org/licenses/GPL-2.0).
     - [Chainer model](https://drive.google.com/file/d/0BxSyYt1jT6LhS2dKSUtIV1Z4eGM/view?usp=sharing) trained by [@shiba24](https://github.com/shiba24). [GPL v2 LICENSE](https://opensource.org/licenses/GPL-2.0). Trained epoch = 90 and the validation loss = 0.0187835. This file is .npy format so you may read without chainer (though not tested yet).
  - ResNet50
-    - [Chainer model](https://drive.google.com/open?id=0BxSyYt1jT6LhS2dKSUtIV1Z4eGM) trained by [@shiba24](https://github.com/shiba24). [GPL v2 LICENSE](https://opensource.org/licenses/GPL-2.0). Trained epoch = 40 and the validation loss = 0.00374945877117. This file is .npy format so you may read without chainer (though not tested yet).
+    - [Chainer model](https://drive.google.com/file/d/0BxSyYt1jT6Lhc05qODh3cTNjc1k/view?usp=sharing) trained by [@shiba24](https://github.com/shiba24). [GPL v2 LICENSE](https://opensource.org/licenses/GPL-2.0). Trained epoch = 40 and the validation loss = 0.00374945877117. This file is .npy format so you may read without chainer (though not tested yet).
 
 ## Caffe
 ### Loading Caffe model with Caffe
